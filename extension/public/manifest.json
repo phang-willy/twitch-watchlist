@@ -1,0 +1,25 @@
+{
+  "name": "Twitch Watchlist (Local)",
+  "manifest_version": 3,
+  "version": "1.0.0",
+  "description": "Extension locale pour suivre tes streamers Twitch.",
+  "action": {
+    "default_title": "Twitch Watchlist",
+    "default_popup": "index.html",
+    "default_icon": "logo.png"
+  },
+  "icons": {
+    "16": "images/icon-16.png",
+    "32": "images/icon-32.png",
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "alarms"],
+  "host_permissions": [
+    "https://test.phangwilly.com/*",
+    "http://localhost:3000/*"
+  ]
+}
