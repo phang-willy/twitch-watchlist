@@ -1,0 +1,13 @@
+RewriteEngine On
+
+# Serve existing files directly
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^ - [L]
+
+# API routes without .php extension
+RewriteRule ^api/twitch/search/?$ api/twitch/search.php [L,QSA]
+RewriteRule ^api/twitch/streams/?$ api/twitch/streams.php [L,QSA]
+RewriteRule ^health/?$ health.php [L,QSA]
+
+# Return 404 for hidden files like .env, .git, etc.
+RewriteRule "(^|/)\." - [R=404,L]
