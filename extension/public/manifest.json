@@ -19,7 +19,7 @@
   },
   "permissions": ["storage", "alarms"],
   "host_permissions": [
-    "https://test.phangwilly.com/*",
+    "https://twitch.phangwilly.com/*",
     "http://localhost:3000/*"
   ]
 }

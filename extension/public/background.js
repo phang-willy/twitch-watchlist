@@ -1,5 +1,5 @@
 const STORAGE_KEY = "twitch_watchlist";
-const API_BASE_URLS = ["https://test.phangwilly.com/twitch", "http://localhost:3000"];
+const API_BASE_URLS = ["https://twitch.phangwilly.com", "http://localhost:3000"];
 const ALARM_NAME = "refresh-live-badge";
 const ALARM_MINUTES = 1;
 
