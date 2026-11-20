@@ -9,6 +9,19 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
+select {
+  color-scheme: light;
+}
+
+.dark select {
+  color-scheme: dark;
+}
+
+.dark select option {
+  background-color: #334155;
+  color: #e2e8f0;
+}
+
 @layer font {
   h1, 
   h2,

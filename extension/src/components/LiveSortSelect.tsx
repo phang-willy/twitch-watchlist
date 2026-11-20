@@ -11,7 +11,7 @@ export function LiveSortSelect({ sortBy, setSortBy }: LiveSortSelectProps) {
     <select
       value={sortBy}
       onChange={(e) => setSortBy(e.target.value as LiveSortKey)}
-      className="rounded border border-slate-300 bg-white px-3 py-1.5 text-xs text-slate-700 focus:border-violet-500 focus:outline-none dark:border-slate-600 dark:bg-slate-700 dark:text-slate-200 cursor-pointer hover:bg-slate-100 focus:bg-slate-100"
+      className="cursor-pointer rounded border border-slate-300 bg-white px-3 py-1.5 text-xs text-slate-700 hover:bg-slate-100 focus:border-violet-500 focus:bg-slate-100 focus:outline-none dark:border-slate-600 dark:bg-slate-700 dark:text-slate-200 dark:hover:bg-slate-600 dark:focus:border-violet-500 dark:focus:bg-slate-600"
       aria-label="Trier les lives"
       name="sort-live"
     >
