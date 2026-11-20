@@ -38,7 +38,7 @@ export function SearchBar({
           setLocalQuery(next);
           onQueryChange(next);
         }}
-        placeholder="Rechercher un login..."
+        placeholder="Rechercher un streamer (login)..."
         className="flex-1 rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 placeholder-slate-400 focus:border-violet-500 focus:outline-none dark:border-slate-600 dark:bg-slate-700 dark:text-slate-100 dark:placeholder-slate-500"
         onKeyDown={(e) => {
           if (e.key === "Enter") triggerSearch();

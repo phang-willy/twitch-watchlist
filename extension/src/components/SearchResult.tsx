@@ -124,7 +124,7 @@ export function SearchResult({
           title={ live ? `Voir live de ${result.displayName}` : `Voir le profil de ${result.displayName}`}
           className="rounded bg-violet-100 px-2 py-1 text-xs font-medium text-violet-700 hover:bg-violet-200 dark:bg-violet-900/40 dark:text-violet-300 dark:hover:bg-violet-900/60 cursor-pointer flex items-center justify-center gap-1"
         >
-          {live ? "Voir le live" : "Voir le profil"}
+          {live ? "Voir le live" : "Profil"}
         </a>
 
         <button
